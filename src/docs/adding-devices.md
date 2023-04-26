@@ -24,6 +24,10 @@ title: Sonoff S20
 date-published: 2019-10-11
 type: plug
 standard: uk, us
+board: esp8266
+difficulty: 1
+made-for-esphome: false
+project-url: https://github.com/
 ---
 ```
 
@@ -33,8 +37,8 @@ standard: uk, us
 | `date-published`   | Date Published                                        | Formatting: `YYYY-MM-DD HH:MM:SS +/-TTTT` (Time and Timezone offset are optional)                                                                | Yes       |
 | `type`             | Type of Device                                        | `plug`, `light`, `switch`, `dimmer` , `relay`, `sensor`, `misc`                                                                                  | Yes       |
 | `standard`         | Electrical standard country                           | `uk`, `us`, `eu`, `au`, `in`, `global`                                                                                                           | Yes       |
-| `board`            | Type of board used in product                         | `esp8266`, `esp32`                                                                                                                               | No        |
-| `project-url`      | URL for product or GitHub Repo                        |                                                                                                                                                  | No        |
+| `board`            | Type of board used in product                         | `esp8266`, `esp32`, `rp2040`                                                                                                                               | No        |
+| `project-url`      | URL for product or GitHub. This should point directly to a working Yaml file or page where the yaml file is easily accessible (ie. a Github Repo)                        |                                                                                                                                                  | No        |
 | `made-for-esphome` | Has the manufacturer certified the device for ESPHome | `True`, `False`                                                                                                                                  | No        |
 | `difficulty`       | Difficulty rating                                     | `1`: Comes with ESPhome,  `2`: Plug-n-flash, `3`: Disassembly required, `4`: Soldering required, `5`: Chip needs replacement | No        |
 
